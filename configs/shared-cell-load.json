@@ -1,0 +1,27 @@
+{
+  "name": "shared-cell-load",
+  "description": "Two downlink UDP flows sharing one BWP; Flow 2 at 20k packets/s.",
+  "parameters": {
+    "gNbNum": 1,
+    "ueNumPergNb": 2,
+    "logging": false,
+    "doubleOperationalBand": false,
+    "enableDiscarding": true,
+    "packetSizeUll": 100,
+    "packetSizeBe": 1252,
+    "lambdaUll": 10000,
+    "lambdaBe": 20000,
+    "appStartTime": "400ms",
+    "simTime": "1000ms",
+    "drainTime": "500ms",
+    "numerologyBwp1": 4,
+    "centralFrequencyBand1": 28000000000,
+    "bandwidthBand1": 50000000,
+    "numerologyBwp2": 2,
+    "centralFrequencyBand2": 28200000000,
+    "bandwidthBand2": 50000000,
+    "totalTxPower": 35,
+    "RngSeed": 1,
+    "RngRun": 1
+  }
+}

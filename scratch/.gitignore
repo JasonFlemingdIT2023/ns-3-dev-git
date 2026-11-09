@@ -6,3 +6,5 @@
 !subdir/
 !scratch-simulator.cc
 !CMakeLists.txt
+!single-cell-baseline.cc
+!single-cell-baseline.cc
